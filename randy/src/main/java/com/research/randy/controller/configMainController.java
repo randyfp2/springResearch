@@ -1,4 +1,6 @@
 package com.research.randy.controller;
+import com.research.randy.apiResponse.apiResponse;
+import com.research.randy.apiResponse.util.apiResponseUtil;
 import com.research.randy.model.configMain;
 import com.research.randy.service.configMainService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/configs")
-
 public class configMainController {
 
     private final configMainService newConfigMainService;
@@ -24,30 +25,36 @@ public class configMainController {
     }
 
     @GetMapping
-    public List<configMain> getAllConfigs() {
-        return newConfigMainService.getAllConfigs();
+    public ResponseEntity<apiResponse<List<configMain>>> getAllConfigs() {
+        List<configMain> configs = newConfigMainService.getAllConfigs();
+        return ResponseEntity.ok(apiResponseUtil.createSuccessResponse(configs));
     }
 
     @GetMapping("/{key}")
-    public ResponseEntity<configMain> getConfigByKey(@PathVariable String key) {
+    public ResponseEntity<apiResponse<configMain>> getConfigByKey(@PathVariable String key) {
         Optional<configMain> newConfigMain = newConfigMainService.getConfigByKey(key);
-        return newConfigMain.map(ResponseEntity::ok)
-                .orElseGet(() -> ResponseEntity.notFound().build());
+        apiResponse<configMain> apiResponse = newConfigMain
+                .map(apiResponseUtil::createSuccessResponse)
+                .orElseGet(() -> apiResponseUtil.createErrorResponse("Config not found"));
+        return ResponseEntity.ok(apiResponse);
     }
 
     @PostMapping
-    public ResponseEntity<configMain> createOrUpdateConfig(@RequestBody configMain configMain) {
+    public ResponseEntity<apiResponse<configMain>> createOrUpdateConfig(@RequestBody configMain configMain) {
         configMain savedConfig = newConfigMainService.saveConfig(configMain);
-        return ResponseEntity.ok(savedConfig);
+        apiResponse<configMain> apiResponse = apiResponseUtil.createSuccessResponse(savedConfig);
+        return ResponseEntity.ok(apiResponse);
     }
 
     @DeleteMapping("/{key}")
-    public ResponseEntity<Void> deleteConfig(@PathVariable String key) {
+    public ResponseEntity<apiResponse<Void>> deleteConfig(@PathVariable String key) {
         if (newConfigMainService.getConfigByKey(key).isPresent()) {
             newConfigMainService.deleteConfig(key);
-            return ResponseEntity.noContent().build();
+            apiResponse<Void> apiResponse = apiResponseUtil.createSuccessResponse(null);
+            return ResponseEntity.ok(apiResponse);
         } else {
-            return ResponseEntity.notFound().build();
+            apiResponse<Void> apiResponse = apiResponseUtil.createErrorResponse("Config not found");
+            return ResponseEntity.ok(apiResponse);
         }
     }
 }

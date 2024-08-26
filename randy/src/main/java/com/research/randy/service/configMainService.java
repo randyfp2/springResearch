@@ -2,7 +2,9 @@ package com.research.randy.service;
 
 import com.research.randy.model.configMain;
 import com.research.randy.repository.configMainRepository;
+import com.research.randy.specification.configMainSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -31,5 +33,14 @@ public class configMainService {
     public void deleteConfig(String key) {
         newConfigMainRepository.deleteById(key);
     }
+    /*
+    //
+    public List<configMain> getConfigs(String keygroup, boolean enabled) {
+        Specification<configMain> spec;
+        spec = Specification.where(configMainSpecification.hasKeyGroup(keygroup))
+                .and(configMainSpecification.isEnabled());
+        return configMainRepository.findAll(spec);
+    }
+    */
 
 }

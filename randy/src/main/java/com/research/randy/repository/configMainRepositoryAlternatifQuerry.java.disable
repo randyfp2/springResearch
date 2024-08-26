@@ -1,0 +1,31 @@
+package com.research.randy.repository;
+
+import com.research.randy.model.configMain;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+//query yang lebih dinamis dan kompleks, Anda dapat menggunakan JpaSpecificationExecutor untuk membuat query berbasis spesifikasi
+public interface configMainRepositoryAlternatifQuerry extends JpaRepository<configMain, String>, JpaSpecificationExecutor<configMain> {
+    // Menggunakan JPQL Query
+    @Query("SELECT c FROM configMain c WHERE c.keygroup = :keygroup")
+    List<configMain> findByKeyGroup(@Param("keygroup") String keygroup);
+
+
+    @Query("SELECT c FROM configMain c WHERE c.isenable = true")
+    List<configMain> findEnabledConfigs();
+
+
+    // Menggunakan Native Query SQL
+    @Query(value = "SELECT * FROM RANDY_CFG_MAIN WHERE keygroup = :keygroup", nativeQuery = true)
+    List<configMain> findByKeyGroupNative(@Param("keygroup") String keygroup);
+
+    @Modifying
+    @Query("UPDATE ConfigMain c SET c.value = :value WHERE c.keyname = :keyname")
+    int updateConfigValue(@Param("keyname") String keyname, @Param("value") String value);
+}
