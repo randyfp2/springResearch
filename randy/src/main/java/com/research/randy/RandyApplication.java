@@ -1,0 +1,13 @@
+package com.research.randy;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RandyApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RandyApplication.class, args);
+	}
+
+}
