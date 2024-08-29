@@ -10,7 +10,8 @@ import jakarta.persistence.Table;
 @Table(name = "RANDY_CFG_MAIN")
 public class configMain {
     @Id
-    private String key;
+    @Column(name = "KEY") // Periksa nama kolom
+    private String keyParam;
     @Column(name = "KEYGROUP") // Periksa nama kolom
     private String keyGroup;
     @Column(name = "VALUE") // Periksa nama kolom
@@ -19,12 +20,11 @@ public class configMain {
     private String isenable;
 
     // Getters and Setters
-    public String getKey() {
-        return key;
+    public String getKeyParam() {
+        return keyParam;
     }
-
-    public void setKey(String key) {
-        this.key = key;
+    public void setKeyParam(String keyParam) {
+        this.keyParam = keyParam;
     }
     public String getKeyGroup() {
         return keyGroup;
