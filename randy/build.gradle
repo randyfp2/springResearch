@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.1.0' // Perhatikan versinya, disarankan yang stabil
+	id 'org.springframework.boot' version '3.1.0'
 	id 'io.spring.dependency-management' version '1.1.0'
 }
 
@@ -17,33 +17,72 @@ repositories {
 	mavenCentral()
 }
 
-configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
-	all {
-		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
-	}
-}
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
 	implementation 'com.oracle.database.jdbc:ojdbc8:19.8.0.0'
 	implementation 'org.springframework.boot:spring-boot-starter-cache'
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
-	//implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
-	//runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5'
-	//runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+	implementation 'org.springframework.boot:spring-boot-starter-web-services'
+	implementation 'org.apache.httpcomponents.client5:httpclient5:5.2'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.oracle.database.jdbc:ojdbc11'
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+	implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+	implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+
+	// Apache CXF dependencies
+	/*
+	implementation 'org.apache.cxf:cxf-core:4.0.5'
+	implementation 'org.apache.cxf:cxf-tools-wsdlto-core:4.0.5'
+	implementation 'org.apache.cxf:cxf-rt-frontend-jaxws:4.0.5'
+	implementation 'org.apache.cxf:cxf-rt-transports-http:4.0.5'
+	implementation 'org.apache.cxf:cxf-rt-bindings-soap:4.0.5'
+
+	// JAXB dependencies for compatibility
+	implementation 'javax.xml.bind:jaxb-api:2.3.1' // JAXB API
+	runtimeOnly 'org.glassfish.jaxb:jaxb-runtime:4.0.2' // JAXB runtime implementation
+	implementation 'org.glassfish.jaxb:jaxb-core:4.0.2' // JAXB core
+	implementation 'org.glassfish.jaxb:jaxb-xjc:4.0.2' // JAXB XJC (XML -> Java)
+	*/
+	// Spring WS
+	implementation 'org.springframework.ws:spring-ws-core:4.0.0'
+	implementation 'org.springframework.ws:spring-ws-support:4.0.0'
+	implementation 'org.springframework.ws:spring-ws-security:4.0.0'
+	// Additional Spring WS
+	implementation 'com.sun.xml.ws:jaxws-ri:2.3.3'
+	implementation 'org.apache.axis2:axis2-kernel:1.8.0'
+	implementation 'org.apache.axis2:axis2-transport-http:1.8.0'
+	implementation 'org.apache.axis2:axis2-transport-local:1.8.0'
+	implementation 'com.squareup.retrofit2:retrofit:2.9.0' //Retrofit is typically used for RESTful services, but with the Simple XML converter, you can use it for SOAP services.
+	implementation 'com.squareup.retrofit2:converter-simplexml:2.9.0'
+	implementation 'jakarta.xml.bind:jakarta.xml.bind-api:3.0.1'
+	implementation 'org.glassfish.jaxb:jaxb-runtime:4.0.2'
+	runtimeOnly 'org.glassfish.jaxb:jaxb-runtime:2.3.1'
+
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
+bootJar {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+// Task untuk menghasilkan kode Java dari WSDL
+/*
+task generateWsdl(type: JavaExec) {
+	group = 'build'
+	description = 'Generates Java code from WSDL'
+	mainClass.set('org.apache.cxf.tools.wsdlto.WSDLToJava')
+	classpath = sourceSets.main.runtimeClasspath
+	args = ['-p', 'com.example.soap.client', 'src/main/resources/transferIntraBank.wsdl']
+}
+*/
+
+//generateWsdl.dependsOn 'classes'

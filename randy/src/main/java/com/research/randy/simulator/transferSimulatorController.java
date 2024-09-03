@@ -67,15 +67,17 @@ public class transferSimulatorController {
             response.put("response_code", "05");
             response.put("response_message", "Rekening Tidak di temukan");
             response.put("error_code", "SV-05");
-            response.put("error_message", "BENEFICIARY_ACCOUNT_NOT_FOUND");
+            response.put("error_message", "BENEFICIARY ACCOUNT NOT FOUND");
             response.put("error_cat", "Error");
+            response.put("reference_no", generateFormattedReferenceNo());
+            response.put("partner_reference_no", requestBody.get("partner_reference_no"));
         }
 
         return response;
     }
 
     private String generateFormattedReferenceNo() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH-mm-ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
         return LocalDateTime.now().format(formatter);
     }
 

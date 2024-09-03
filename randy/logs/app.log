@@ -1,0 +1,841 @@
+2024-08-28 17:44:43 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-28 17:44:43 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
+2024-08-28 17:44:43 [Test worker] INFO  com.research.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 27908 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 17:44:43 [Test worker] INFO  com.research.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:44:44 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 17:44:44 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-08-28 17:44:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 17:44:45 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3af236d0
+2024-08-28 17:44:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 17:44:45 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:44:45 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 17:44:45 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 17:44:46 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:44:46 [Test worker] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 17:44:46 [Test worker] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 17:44:46 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:44:47 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:44:47 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:44:48 [Test worker] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 17:44:48 [Test worker] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5cb64b9c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c376461, org.springframework.security.web.context.SecurityContextHolderFilter@6f627a1a, org.springframework.security.web.header.HeaderWriterFilter@4619854a, org.springframework.security.web.csrf.CsrfFilter@52e34db, org.springframework.security.web.authentication.logout.LogoutFilter@72321701, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4917992b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62536882, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27244a88, org.springframework.security.web.access.ExceptionTranslationFilter@5c7b504, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d208795]
+2024-08-28 17:44:48 [Test worker] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 17:44:49 [Test worker] INFO  com.research.randy.RandyApplicationTests - Started RandyApplicationTests in 5.813 seconds (process running for 7.555)
+2024-08-28 17:44:50 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:44:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:44:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-28 17:45:00 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 8112 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 17:45:00 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:45:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 17:45:01 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2024-08-28 17:45:02 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 17:45:02 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:45:02 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 17:45:02 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 17:45:02 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:45:02 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+2024-08-28 17:45:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 17:45:03 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@280fafd
+2024-08-28 17:45:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 17:45:03 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:45:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 17:45:03 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 17:45:03 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:45:04 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 17:45:04 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 17:45:04 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:45:05 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:45:05 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:45:05 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 17:45:05 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@36a8ebca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@328e687e, org.springframework.security.web.context.SecurityContextHolderFilter@66d73e2d, org.springframework.security.web.header.HeaderWriterFilter@55a2f08b, org.springframework.security.web.csrf.CsrfFilter@96448ee, org.springframework.security.web.authentication.logout.LogoutFilter@71c69628, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75d9b73c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f1a3c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@434a72f2, org.springframework.security.web.access.ExceptionTranslationFilter@439d649c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@154208f2]
+2024-08-28 17:45:05 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 17:45:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:45:06 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-28 17:45:06 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.224 seconds (process running for 7.15)
+2024-08-28 17:45:12 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:45:12 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 17:45:12 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-28 17:46:54 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-28 17:46:54 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
+2024-08-28 17:46:54 [Test worker] INFO  com.research.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 18212 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 17:46:54 [Test worker] INFO  com.research.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:46:55 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 17:46:55 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2024-08-28 17:46:56 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 17:46:56 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1471b98d
+2024-08-28 17:46:56 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 17:46:56 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:46:56 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 17:46:56 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 17:46:56 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:46:57 [Test worker] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 17:46:57 [Test worker] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 17:46:57 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:46:58 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:46:58 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:46:58 [Test worker] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 17:46:59 [Test worker] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1cb7f2fe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cb64b9c, org.springframework.security.web.context.SecurityContextHolderFilter@3453f79c, org.springframework.security.web.header.HeaderWriterFilter@772589ed, org.springframework.security.web.csrf.CsrfFilter@5a2297d7, org.springframework.security.web.authentication.logout.LogoutFilter@68024e57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@655b9169, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4917992b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c376461, org.springframework.security.web.access.ExceptionTranslationFilter@60655642, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d96b8fb]
+2024-08-28 17:46:59 [Test worker] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 17:47:00 [Test worker] INFO  com.research.randy.RandyApplicationTests - Started RandyApplicationTests in 5.744 seconds (process running for 7.442)
+2024-08-28 17:47:00 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:47:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-28 17:47:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-28 17:47:32 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 5348 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 17:47:32 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:47:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 17:47:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2024-08-28 17:47:34 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 17:47:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:47:34 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 17:47:34 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 17:47:34 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:47:34 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2024-08-28 17:47:34 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 17:47:35 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@29962b2f
+2024-08-28 17:47:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 17:47:35 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:47:35 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 17:47:35 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 17:47:35 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:47:35 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 17:47:35 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 17:47:36 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:47:36 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:47:36 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:47:37 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 17:47:37 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@be9bf2e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@623d222, org.springframework.security.web.context.SecurityContextHolderFilter@6bfc5296, org.springframework.security.web.header.HeaderWriterFilter@3a720ae3, org.springframework.security.web.csrf.CsrfFilter@3c1d6ef0, org.springframework.security.web.authentication.logout.LogoutFilter@304704ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@457d3f54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@144792d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@949f0d, org.springframework.security.web.access.ExceptionTranslationFilter@6c6c93f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bf0bb93]
+2024-08-28 17:47:37 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 17:47:38 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:47:38 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-28 17:47:38 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.123 seconds (process running for 6.978)
+2024-08-28 17:48:15 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:48:15 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 17:48:15 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-28 17:56:39 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 6448 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 17:56:39 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 17:56:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 17:56:40 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 2 JPA repository interfaces.
+2024-08-28 17:56:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 17:56:41 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:56:41 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 17:56:41 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 17:56:41 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 17:56:41 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2107 ms
+2024-08-28 17:56:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 17:56:42 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@691541bc
+2024-08-28 17:56:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 17:56:42 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 17:56:42 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 17:56:42 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 17:56:43 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:56:43 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 17:56:43 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 17:56:43 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 17:56:44 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 17:56:44 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 17:56:44 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 17:56:45 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bc08a77, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37922937, org.springframework.security.web.context.SecurityContextHolderFilter@71e9640, org.springframework.security.web.header.HeaderWriterFilter@762db992, org.springframework.security.web.authentication.logout.LogoutFilter@5f69462f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2f0e7008, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25762f04, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2932721e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73483d4b, org.springframework.security.web.access.ExceptionTranslationFilter@542aec6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7747571c]
+2024-08-28 17:56:45 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 17:56:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-28 17:56:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-28 17:56:45 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.606 seconds (process running for 7.535)
+2024-08-28 17:56:55 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 17:56:55 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 17:56:55 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-28 18:00:03 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 4800 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 18:00:03 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 18:00:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 18:00:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2024-08-28 18:00:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 18:00:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 18:00:05 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 18:00:05 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 18:00:05 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 18:00:05 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1902 ms
+2024-08-28 18:00:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 18:00:06 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@764fffa0
+2024-08-28 18:00:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 18:00:06 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 18:00:06 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 18:00:06 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 18:00:06 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 18:00:06 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 18:00:07 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 18:00:07 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 18:00:08 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 18:00:08 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 18:00:08 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 18:00:08 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@682270ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bc08a77, org.springframework.security.web.context.SecurityContextHolderFilter@5812935, org.springframework.security.web.header.HeaderWriterFilter@724e0a77, org.springframework.security.web.authentication.logout.LogoutFilter@3c5cb013, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@951461a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ce45e18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25762f04, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37922937, org.springframework.security.web.access.ExceptionTranslationFilter@49c555c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b4ce00]
+2024-08-28 18:00:08 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 18:00:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-28 18:00:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-28 18:00:09 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.496 seconds (process running for 7.393)
+2024-08-28 18:00:10 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 18:00:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 18:00:10 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-28 18:00:52 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 29144 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 18:00:52 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 18:00:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 18:00:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+2024-08-28 18:00:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 18:00:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 18:00:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 18:00:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 18:00:54 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 18:00:54 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2099 ms
+2024-08-28 18:00:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 18:00:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@14b275bd
+2024-08-28 18:00:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 18:00:55 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 18:00:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 18:00:55 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 18:00:55 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 18:00:55 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 18:00:55 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-28 18:00:56 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-28 18:00:56 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-28 18:00:56 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 18:00:57 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 18:00:57 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f67f5ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c80f8dd, org.springframework.security.web.context.SecurityContextHolderFilter@75b25ec3, org.springframework.security.web.header.HeaderWriterFilter@2c7607e5, org.springframework.security.web.authentication.logout.LogoutFilter@25762f04, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b4ce00, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b60d99c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@543a7605, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51b2b3e6, org.springframework.security.web.access.ExceptionTranslationFilter@6d387e9b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ddb6c71]
+2024-08-28 18:00:57 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-28 18:00:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-28 18:00:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-28 18:00:58 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.55 seconds (process running for 7.488)
+2024-08-28 18:01:02 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28 18:01:02 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-28 18:01:02 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-28 18:10:24 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 27000 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-28 18:10:24 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 18:10:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 18:10:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2024-08-28 18:10:51 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-28 18:10:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-28 18:10:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 18:10:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-28 18:10:56 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 18:10:56 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 31430 ms
+2024-08-28 18:11:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 18:11:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5b733ef7
+2024-08-28 18:11:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 18:12:01 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 18:12:10 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-28 18:12:11 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-28 18:12:34 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:18:25 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-29 09:18:25 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
+2024-08-29 09:18:25 [Test worker] INFO  com.research.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 28252 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:18:25 [Test worker] INFO  com.research.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:18:26 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:18:26 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2024-08-29 09:18:27 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:18:27 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1216eb3f
+2024-08-29 09:18:27 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:18:27 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:18:28 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:18:28 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:18:28 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:18:28 [Test worker] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:18:28 [Test worker] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:18:28 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:18:29 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:18:29 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:18:30 [Test worker] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:18:31 [Test worker] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@696d28ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18a349cb, org.springframework.security.web.context.SecurityContextHolderFilter@6a4f15bc, org.springframework.security.web.header.HeaderWriterFilter@542b27af, org.springframework.security.web.csrf.CsrfFilter@2e5ff1d4, org.springframework.security.web.authentication.logout.LogoutFilter@457dc809, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52238861, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6a495d88, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ea3491d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7d619bcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6421e9e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69c7fb94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6012bee8, org.springframework.security.web.access.ExceptionTranslationFilter@65130cf2, org.springframework.security.web.access.intercept.AuthorizationFilter@58e9e852]
+2024-08-29 09:18:31 [Test worker] INFO  com.research.randy.RandyApplicationTests - Started RandyApplicationTests in 6.121 seconds (process running for 7.809)
+2024-08-29 09:18:32 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:18:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-29 09:18:32 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-29 09:18:48 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 25788 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:18:48 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:18:49 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:18:49 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2024-08-29 09:18:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:18:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:18:50 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:18:50 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:18:50 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:18:50 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2101 ms
+2024-08-29 09:18:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:18:51 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@43a4a9e5
+2024-08-29 09:18:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:18:51 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:18:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:18:51 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:18:52 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:18:52 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:18:52 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:18:52 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:18:53 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:18:53 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:18:54 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:18:54 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6908674b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a3e458, org.springframework.security.web.context.SecurityContextHolderFilter@7baf7e2c, org.springframework.security.web.header.HeaderWriterFilter@2a045e85, org.springframework.security.web.csrf.CsrfFilter@29b2a94c, org.springframework.security.web.authentication.logout.LogoutFilter@52df6d0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7bf997e0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2ac0cb64, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4b74a4d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6421bc7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@349686e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1067192a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63df2eb8, org.springframework.security.web.access.ExceptionTranslationFilter@3d8512e9, org.springframework.security.web.access.intercept.AuthorizationFilter@48a2b492]
+2024-08-29 09:18:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:18:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:18:55 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.627 seconds (process running for 7.656)
+2024-08-29 09:19:07 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:19:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:19:07 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 09:21:02 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 10152 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:21:02 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:21:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:21:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2024-08-29 09:21:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:21:04 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:21:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:21:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:21:04 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:21:04 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1590 ms
+2024-08-29 09:21:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:21:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1f78d415
+2024-08-29 09:21:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:21:04 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:21:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:21:04 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:21:05 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:21:05 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:21:05 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:21:05 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:21:06 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:21:06 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:21:06 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:21:07 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:21:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:21:07 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 4.911 seconds (process running for 5.844)
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:21 [http-nio-8080-exec-1] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:23 [http-nio-8080-exec-3] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:21:23 [http-nio-8080-exec-3] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:23 [http-nio-8080-exec-3] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:24 [http-nio-8080-exec-4] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:21:24 [http-nio-8080-exec-4] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:24 [http-nio-8080-exec-4] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:21:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:27 [http-nio-8080-exec-6] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:21:27 [http-nio-8080-exec-6] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:21:27 [http-nio-8080-exec-6] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:22:52 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 29096 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:22:52 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:22:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:22:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87 ms. Found 2 JPA repository interfaces.
+2024-08-29 09:22:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:22:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:22:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:22:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:22:54 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:22:54 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1837 ms
+2024-08-29 09:22:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:22:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@49580ca8
+2024-08-29 09:22:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:22:55 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:22:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:22:55 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:22:55 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:22:55 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:22:55 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:22:56 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:22:56 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:22:56 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:22:57 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:22:57 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:22:57 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f465ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c770b57, org.springframework.security.web.context.SecurityContextHolderFilter@37b44e8e, org.springframework.security.web.header.HeaderWriterFilter@4144d4a, org.springframework.security.web.csrf.CsrfFilter@1735e1c4, org.springframework.security.web.authentication.logout.LogoutFilter@222a7429, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a70daf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6344004d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@308d4981, org.springframework.security.web.access.ExceptionTranslationFilter@30a1b2ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@260fffec]
+2024-08-29 09:22:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:22:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:22:58 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.086 seconds (process running for 6.953)
+2024-08-29 09:23:03 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:23:03 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:23:03 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 09:31:24 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 2660 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:31:24 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:31:25 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:31:25 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:31:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:31:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:31:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:31:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:31:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:31:27 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2434 ms
+2024-08-29 09:31:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:31:27 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@73bb1337
+2024-08-29 09:31:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:31:27 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:31:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:31:27 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:31:28 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:31:28 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:31:28 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:31:28 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:31:29 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:31:29 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:31:30 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:31:30 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:31:30 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@530a46f4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3180131e, org.springframework.security.web.context.SecurityContextHolderFilter@6f9999f6, org.springframework.security.web.header.HeaderWriterFilter@1c15a6aa, org.springframework.security.web.csrf.CsrfFilter@215f8d7, org.springframework.security.web.authentication.logout.LogoutFilter@2b6ff016, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68ea1eb5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e096ac0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62376bdd, org.springframework.security.web.access.ExceptionTranslationFilter@58189132, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f9b5f01]
+2024-08-29 09:31:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:31:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:31:31 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 7.162 seconds (process running for 8.18)
+2024-08-29 09:31:33 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:31:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:31:33 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 09:35:11 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 29212 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:35:11 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:35:12 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:35:12 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:35:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:35:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:35:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:35:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:35:13 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:35:13 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1978 ms
+2024-08-29 09:35:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:35:13 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3554bdc0
+2024-08-29 09:35:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:35:13 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:35:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:35:14 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:35:14 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:35:14 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:35:14 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:35:14 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:35:15 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:35:15 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:35:15 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:35:15 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:35:16 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e8a678a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fe91918, org.springframework.security.web.context.SecurityContextHolderFilter@55a07f97, org.springframework.security.web.header.HeaderWriterFilter@31daf094, org.springframework.security.web.csrf.CsrfFilter@da5b46f, org.springframework.security.web.authentication.logout.LogoutFilter@22ba30b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@748fa354, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78e59b04, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d3bde85, org.springframework.security.web.access.ExceptionTranslationFilter@139b3a29, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@630bd5e7]
+2024-08-29 09:35:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:35:16 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:35:16 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.095 seconds (process running for 6.989)
+2024-08-29 09:35:53 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:35:53 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:35:53 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 09:36:01 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 17944 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:36:01 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:36:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:36:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:36:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:36:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:36:03 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:36:03 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:36:03 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:36:03 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2155 ms
+2024-08-29 09:36:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:36:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@73bb1337
+2024-08-29 09:36:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:36:04 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:36:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:36:04 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:36:05 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:36:05 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:36:05 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:36:05 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:36:06 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:36:06 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:36:07 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:36:07 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:36:07 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ef48b08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a1878d, org.springframework.security.web.context.SecurityContextHolderFilter@c555e1e, org.springframework.security.web.header.HeaderWriterFilter@5c1ea00, org.springframework.security.web.csrf.CsrfFilter@727de450, org.springframework.security.web.authentication.logout.LogoutFilter@46df794e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66df362c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125ba798, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b625e82, org.springframework.security.web.access.ExceptionTranslationFilter@19d3f4fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4afdb05e]
+2024-08-29 09:36:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:36:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:36:08 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.805 seconds (process running for 7.667)
+2024-08-29 09:36:08 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:36:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:36:08 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 09:36:53 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 21328 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:36:53 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:36:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:36:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:36:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:36:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:36:55 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:36:55 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:36:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:36:55 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2321 ms
+2024-08-29 09:36:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:36:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3554bdc0
+2024-08-29 09:36:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:36:56 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:36:56 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:36:56 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:36:56 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:36:57 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:36:57 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:36:57 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:36:58 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:36:58 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:36:58 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:36:58 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:36:59 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6dc5e857, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ce0f50a, org.springframework.security.web.context.SecurityContextHolderFilter@1c24639e, org.springframework.security.web.header.HeaderWriterFilter@229c4d34, org.springframework.security.web.csrf.CsrfFilter@744199bb, org.springframework.security.web.authentication.logout.LogoutFilter@3458be63, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ac0fdc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@571903ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c3a1d7f, org.springframework.security.web.access.ExceptionTranslationFilter@54cce500, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@474deb4c]
+2024-08-29 09:36:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:36:59 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:36:59 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 7.031 seconds (process running for 8.089)
+2024-08-29 09:37:00 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:37:00 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:37:00 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 09:38:46 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 29240 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:38:46 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:38:47 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:38:47 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:38:48 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:38:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:38:48 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:38:48 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:38:48 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:38:48 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2338 ms
+2024-08-29 09:38:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:38:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@426131d7
+2024-08-29 09:38:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:38:49 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:38:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:38:49 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:38:49 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:38:50 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:38:50 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:38:50 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:38:51 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:38:51 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:38:51 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:38:51 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:38:51 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16269ff4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@684bfba9, org.springframework.security.web.context.SecurityContextHolderFilter@6ce8bf64, org.springframework.security.web.header.HeaderWriterFilter@49482761, org.springframework.security.web.csrf.CsrfFilter@5ca006ac, org.springframework.security.web.authentication.logout.LogoutFilter@6f30d0eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@956cf3d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@712213ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6f9b5f01, org.springframework.security.web.access.ExceptionTranslationFilter@47ab3688, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@752e4223]
+2024-08-29 09:38:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:38:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:38:52 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.608 seconds (process running for 7.494)
+2024-08-29 09:39:00 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:39:00 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:39:00 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 09:41:50 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 28960 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 09:41:50 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 09:41:51 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 09:41:51 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2024-08-29 09:41:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 09:41:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:41:52 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 09:41:52 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 09:41:52 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 09:41:52 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1963 ms
+2024-08-29 09:41:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 09:41:53 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1e00bfe2
+2024-08-29 09:41:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 09:41:53 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 09:41:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 09:41:53 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 09:41:53 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:41:54 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 09:41:54 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 09:41:54 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 09:41:55 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 09:41:55 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 09:41:55 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 09:41:55 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 09:41:55 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5418893c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22ba30b0, org.springframework.security.web.context.SecurityContextHolderFilter@2e564c78, org.springframework.security.web.header.HeaderWriterFilter@6f30d0eb, org.springframework.security.web.authentication.logout.LogoutFilter@574e4184, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@fef2768, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11267e87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b6ff016, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22bca04e, org.springframework.security.web.access.ExceptionTranslationFilter@3fe3ebb3, org.springframework.security.web.access.intercept.AuthorizationFilter@1735e1c4]
+2024-08-29 09:41:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 09:41:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 09:41:56 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.342 seconds (process running for 7.417)
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:42:17 [http-nio-8080-exec-2] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:42:18 [http-nio-8080-exec-3] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:42:18 [http-nio-8080-exec-3] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:42:18 [http-nio-8080-exec-3] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 09:42:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - Received request to get config by key: TWS_ENDPOINT_URL
+2024-08-29 09:42:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - AMBIL NIH found for key: TWS_ENDPOINT_URL
+2024-08-29 09:42:25 [http-nio-8080-exec-5] INFO  com.research.randy.general - Config found for key: TWS_ENDPOINT_URL
+2024-08-29 10:12:51 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 23024 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:12:51 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:12:52 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:12:52 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:12:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:12:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:12:53 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:12:53 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:12:53 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:12:53 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2048 ms
+2024-08-29 10:12:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:12:54 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@58687fb7
+2024-08-29 10:12:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:12:54 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:12:54 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:12:54 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:12:54 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:12:54 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:12:55 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:12:55 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:12:56 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:12:56 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:12:56 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:12:56 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:12:56 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a7fd77f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49faf815, org.springframework.security.web.context.SecurityContextHolderFilter@5c1ea00, org.springframework.security.web.header.HeaderWriterFilter@4a0f4282, org.springframework.security.web.authentication.logout.LogoutFilter@6cd65042, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6344004d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3398ed12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125ba798, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3006aef5, org.springframework.security.web.access.ExceptionTranslationFilter@5c30decf, org.springframework.security.web.access.intercept.AuthorizationFilter@3a574a3b]
+2024-08-29 10:12:57 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:12:57 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:12:57 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.618 seconds (process running for 7.548)
+2024-08-29 10:13:02 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:13:02 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:13:02 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 10:14:43 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 22988 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:14:43 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:14:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:14:44 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:14:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:14:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:14:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:14:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:14:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:14:46 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2084 ms
+2024-08-29 10:14:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:14:46 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5d9618f2
+2024-08-29 10:14:46 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:14:46 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:14:46 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:14:46 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:14:47 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:14:47 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:14:47 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:14:47 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:14:48 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:14:48 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:14:49 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:14:49 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:14:49 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6344004d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7611e295, org.springframework.security.web.context.SecurityContextHolderFilter@4a0f4282, org.springframework.security.web.header.HeaderWriterFilter@80b6098, org.springframework.security.web.authentication.logout.LogoutFilter@7e5c8c80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@37b44e8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43cf97a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c555e1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d40a2b, org.springframework.security.web.access.ExceptionTranslationFilter@5aefdb9e, org.springframework.security.web.access.intercept.AuthorizationFilter@1690929]
+2024-08-29 10:14:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:14:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:14:50 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 7.072 seconds (process running for 8.098)
+2024-08-29 10:14:54 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:14:54 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:14:54 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 10:17:29 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 5776 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:17:29 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:17:30 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:17:30 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:17:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:17:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:17:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:17:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:17:31 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:17:31 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2091 ms
+2024-08-29 10:17:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:17:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3a3b10f4
+2024-08-29 10:17:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:17:32 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:17:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:17:32 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:17:33 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:17:33 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:17:33 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:17:33 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:17:34 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:17:34 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:17:35 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:17:35 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:17:35 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3006aef5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16257f8c, org.springframework.security.web.context.SecurityContextHolderFilter@3398ed12, org.springframework.security.web.header.HeaderWriterFilter@43cf97a8, org.springframework.security.web.authentication.logout.LogoutFilter@4b5ceb5d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d40a2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64e247e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43c20142, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62158618, org.springframework.security.web.access.ExceptionTranslationFilter@4a0f4282, org.springframework.security.web.access.intercept.AuthorizationFilter@5418893c]
+2024-08-29 10:17:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:17:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:17:36 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 7.2 seconds (process running for 8.267)
+2024-08-29 10:17:37 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:17:37 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:17:37 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 10:19:24 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 4836 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:19:24 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:19:25 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:19:25 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:19:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:19:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:19:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:19:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:19:26 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:19:26 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2062 ms
+2024-08-29 10:19:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:19:27 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6a2d867d
+2024-08-29 10:19:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:19:27 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:19:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:19:27 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:19:27 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:19:28 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:19:28 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:19:28 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:19:29 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:19:29 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:19:29 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:19:29 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:19:29 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20608ef4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30a1b2ad, org.springframework.security.web.context.SecurityContextHolderFilter@118c1faa, org.springframework.security.web.header.HeaderWriterFilter@2e564c78, org.springframework.security.web.authentication.logout.LogoutFilter@765eb801, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5418893c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@99f75e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@80b6098, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@436d2bb9, org.springframework.security.web.access.ExceptionTranslationFilter@22fe90df, org.springframework.security.web.access.intercept.AuthorizationFilter@7e5c8c80]
+2024-08-29 10:19:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:19:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:19:30 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.3 seconds (process running for 7.215)
+2024-08-29 10:19:34 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:19:34 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:19:34 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 10:21:52 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 14712 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:21:52 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:21:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:21:53 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:21:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:21:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:21:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:21:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:21:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:21:55 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2166 ms
+2024-08-29 10:21:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:21:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@58687fb7
+2024-08-29 10:21:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:21:55 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:21:55 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:21:55 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:21:56 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:21:56 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:21:56 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:21:56 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:21:57 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:21:57 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:21:57 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:21:57 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:21:58 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a7fd77f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49faf815, org.springframework.security.web.context.SecurityContextHolderFilter@5c1ea00, org.springframework.security.web.header.HeaderWriterFilter@4a0f4282, org.springframework.security.web.authentication.logout.LogoutFilter@6cd65042, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6344004d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3398ed12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125ba798, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3006aef5, org.springframework.security.web.access.ExceptionTranslationFilter@5c30decf, org.springframework.security.web.access.intercept.AuthorizationFilter@3a574a3b]
+2024-08-29 10:21:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:21:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:21:58 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.462 seconds (process running for 7.396)
+2024-08-29 10:22:28 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:22:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:22:28 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 10:32:25 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 10768 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:32:25 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:32:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:32:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:32:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:32:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:32:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:32:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:32:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:32:27 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2232 ms
+2024-08-29 10:32:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:32:28 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3554bdc0
+2024-08-29 10:32:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:32:28 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:32:28 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:32:28 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:32:28 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:32:29 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:32:29 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:32:29 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:32:30 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:32:30 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:32:30 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:32:30 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:32:31 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@49faf815, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3006aef5, org.springframework.security.web.context.SecurityContextHolderFilter@356ab368, org.springframework.security.web.header.HeaderWriterFilter@19d3f4fb, org.springframework.security.web.authentication.logout.LogoutFilter@7674f9d4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7611e295, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c555e1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3458be63, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16257f8c, org.springframework.security.web.access.ExceptionTranslationFilter@7827cdfc, org.springframework.security.web.access.intercept.AuthorizationFilter@733e3c19]
+2024-08-29 10:32:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:32:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:32:31 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.93 seconds (process running for 7.862)
+2024-08-29 10:32:44 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:32:44 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:32:44 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 10:32:44 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-29 10:32:46 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-29 10:32:50 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, java.lang.Object> com.research.randy.simulator.transferSimulatorController.getDynamicResponse(java.util.Map<java.lang.String, java.lang.Object>)]
+2024-08-29 10:32:52 [http-nio-8080-exec-10] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, java.lang.Object> com.research.randy.simulator.transferSimulatorController.getDynamicResponse(java.util.Map<java.lang.String, java.lang.Object>)]
+2024-08-29 10:36:29 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 2724 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:36:29 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:36:30 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:36:30 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:36:31 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:36:31 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:36:31 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:36:31 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:36:31 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:36:31 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2191 ms
+2024-08-29 10:36:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:36:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@58687fb7
+2024-08-29 10:36:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:36:32 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:36:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:36:32 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:37:01 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 23644 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:37:01 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:37:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:37:02 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:37:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:37:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:37:03 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:37:03 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:37:03 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:37:03 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2199 ms
+2024-08-29 10:37:03 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:37:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@58687fb7
+2024-08-29 10:37:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:37:04 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:37:04 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:37:04 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:37:04 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:37:04 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:37:04 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:37:05 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:37:05 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:37:05 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:37:06 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:37:06 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:37:06 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a7fd77f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49faf815, org.springframework.security.web.context.SecurityContextHolderFilter@5c1ea00, org.springframework.security.web.header.HeaderWriterFilter@4a0f4282, org.springframework.security.web.authentication.logout.LogoutFilter@6cd65042, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6344004d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3398ed12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125ba798, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3006aef5, org.springframework.security.web.access.ExceptionTranslationFilter@5c30decf, org.springframework.security.web.access.intercept.AuthorizationFilter@3a574a3b]
+2024-08-29 10:37:07 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:37:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:37:07 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 6.742 seconds (process running for 7.732)
+2024-08-29 10:37:09 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:37:09 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:37:09 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-08-29 10:40:17 [main] INFO  com.research.randy.RandyApplication - Starting RandyApplication using Java 17.0.6 with PID 29348 (C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy\build\classes\java\main started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 10:40:17 [main] INFO  com.research.randy.RandyApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 10:40:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 10:40:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2024-08-29 10:40:19 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-29 10:40:19 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:40:19 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-29 10:40:19 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-08-29 10:40:20 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-29 10:40:20 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2553 ms
+2024-08-29 10:40:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 10:40:21 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3830b06c
+2024-08-29 10:40:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 10:40:21 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 10:40:21 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 10:40:21 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 10:40:21 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:40:21 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 10:40:22 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 10:40:22 [main] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 10:40:23 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 10:40:23 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 10:40:23 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 10:40:23 [main] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 10:40:23 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4144d4a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20276412, org.springframework.security.web.context.SecurityContextHolderFilter@2b6ff016, org.springframework.security.web.header.HeaderWriterFilter@118c1faa, org.springframework.security.web.authentication.logout.LogoutFilter@1e12fdcf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@20608ef4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a491a60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a0f4282, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dae9e61, org.springframework.security.web.access.ExceptionTranslationFilter@470866d1, org.springframework.security.web.access.intercept.AuthorizationFilter@6cd65042]
+2024-08-29 10:40:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-29 10:40:24 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-29 10:40:24 [main] INFO  com.research.randy.RandyApplication - Started RandyApplication in 7.748 seconds (process running for 8.935)
+2024-08-29 10:41:08 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 10:41:08 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-29 10:41:08 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-29 11:29:52 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-29 11:29:52 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
+2024-08-29 11:29:53 [Test worker] INFO  com.research.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 18972 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-08-29 11:29:53 [Test worker] INFO  com.research.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-29 11:29:54 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 11:29:54 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2024-08-29 11:29:55 [Test worker] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-08-29 11:29:55 [Test worker] INFO  org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-29 11:29:55 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-29 11:29:56 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@104a287c
+2024-08-29 11:29:56 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-29 11:29:56 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 11:29:56 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-08-29 11:29:56 [Test worker] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-08-29 11:29:56 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 11:29:56 [Test worker] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 11:29:57 [Test worker] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-08-29 11:29:57 [Test worker] INFO  org.hibernate.bytecode.internal.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-08-29 11:29:58 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-08-29 11:29:58 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 11:29:58 [Test worker] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 11:29:58 [Test worker] WARN  org.springframework.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-08-29 11:29:58 [Test worker] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a3e458, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b74a4d, org.springframework.security.web.context.SecurityContextHolderFilter@2703785e, org.springframework.security.web.header.HeaderWriterFilter@4cbd17b3, org.springframework.security.web.authentication.logout.LogoutFilter@1e9d6c78, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e2546bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a2297d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b8601a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63df2eb8, org.springframework.security.web.access.ExceptionTranslationFilter@70ebaa1e, org.springframework.security.web.access.intercept.AuthorizationFilter@53fb3e1b]
+2024-08-29 11:29:59 [Test worker] INFO  com.research.randy.RandyApplicationTests - Started RandyApplicationTests in 6.824 seconds (process running for 10.501)
+2024-08-29 11:30:00 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 11:30:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-29 11:30:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

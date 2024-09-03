@@ -9,8 +9,10 @@ import org.slf4j.LoggerFactory;
 //import org.springframework.cache.annotation.EnableCaching;
 //import org.springframework.cache.concurrent.ConcurrentMapCacheManager;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
+@EnableAsync
 //@EnableCaching
 public class RandyApplication {
 
