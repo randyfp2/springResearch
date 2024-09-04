@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             xmlns:tns="http://example.com/soap"
+             targetNamespace="http://example.com/soap"
+             name="TransferService">
+
+    <message name="TransferRequest">
+        <part name="parameters" element="tns:TransferRequest"/>
+    </message>
+
+    <message name="TransferResponse">
+        <part name="parameters" element="tns:TransferResponse"/>
+    </message>
+
+    <portType name="TransferPortType">
+        <operation name="transferBetweenAccounts">
+            <input message="tns:TransferRequest"/>
+            <output message="tns:TransferResponse"/>
+        </operation>
+    </portType>
+
+    <binding name="TransferBinding" type="tns:TransferPortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <operation name="transferBetweenAccounts">
+            <soap:operation soapAction="http://example.com/soap/transferBetweenAccounts"/>
+            <input>
+                <soap:body use="literal"/>
+            </input>
+            <output>
+                <soap:body use="literal"/>
+            </output>
+        </operation>
+    </binding>
+
+    <service name="TransferService">
+        <port name="TransferPort" binding="tns:TransferBinding">
+            <soap:address location="http://localhost:5556/soap/transferIntraBank"/>
+        </port>
+    </service>
+</definitions>

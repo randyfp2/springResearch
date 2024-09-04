@@ -5,9 +5,21 @@ public class transferIntraBankRequest {
     public Amount amount;
     private String beneficiaryAccountNo;
     private String sourceAccountNo;
+
+    private String remark;
     private AdditionalInfo additionalInfo;  // Mengubah Map menjadi class AdditionalInfo
 
     // Getters and Setters
+
+
+    public String getRemark() {
+        return remark;
+    }
+
+    public void setRemark(String remark) {
+        this.remark = remark;
+    }
+
 
     public String getPartnerReferenceNo() {
         return partnerReferenceNo;

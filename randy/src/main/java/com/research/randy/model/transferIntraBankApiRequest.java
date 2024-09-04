@@ -1,11 +1,23 @@
 package com.research.randy.model;
 
+import java.util.List;
+
 public class transferIntraBankApiRequest {
 
     private String partner_reference_no;
     private Amount amount;
     private String beneficiary_account_no;
     private String source_account_no;
+
+    public List<String> getTransactionDetail() {
+        return transactionDetail;
+    }
+
+    public void setTransactionDetail(List<String> transactionDetail) {
+        this.transactionDetail = transactionDetail;
+    }
+
+    private List<String> transactionDetail;
     private AdditionalInfo additional_info;
 
     public String getHttpStatus() {
