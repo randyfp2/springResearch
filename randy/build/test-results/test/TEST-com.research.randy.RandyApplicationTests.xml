@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.research.randy.RandyApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-03T03:04:11" hostname="RANDY" time="0.526">
+<testsuite name="com.research.randy.RandyApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-05T02:11:42" hostname="RANDY" time="0.639">
   <properties/>
-  <testcase name="contextLoads()" classname="com.research.randy.RandyApplicationTests" time="0.526"/>
-  <system-out><![CDATA[10:04:03.887 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:04:04.005 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
+  <testcase name="contextLoads()" classname="com.research.randy.RandyApplicationTests" time="0.639"/>
+  <system-out><![CDATA[09:11:33.152 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.research.randy.RandyApplicationTests]: RandyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:11:33.293 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.research.randy.RandyApplication for test class com.research.randy.RandyApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,34 +13,36 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.0)
 
-2024-09-03 10:04:04 INFO  c.r.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 16336 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
-2024-09-03 10:04:04 INFO  c.r.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177 ms. Found 2 JPA repository interfaces.
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.research.randy.repository.configMainRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.research.randy.repository.LoggingDBRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2024-09-03 10:04:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
-2024-09-03 10:04:06 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-09-03 10:04:06 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2024-09-03 10:04:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-09-03 10:04:06 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@d16209e
-2024-09-03 10:04:06 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-09-03 10:04:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-03 10:04:07 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
-2024-09-03 10:04:07 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
-2024-09-03 10:04:07 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2024-09-03 10:04:07 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-03 10:04:07 INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
-2024-09-03 10:04:07 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
-2024-09-03 10:04:08 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-09-03 10:04:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-09-03 10:04:09 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-09-03 10:04:09 WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
-2024-09-03 10:04:09 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57e35236, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c9015c6, org.springframework.security.web.context.SecurityContextHolderFilter@137a70f1, org.springframework.security.web.header.HeaderWriterFilter@7966a964, org.springframework.security.web.authentication.logout.LogoutFilter@16c3388e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2db0dd19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54351197, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@299e245c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36b2b6e6, org.springframework.security.web.access.ExceptionTranslationFilter@6888a33, org.springframework.security.web.access.intercept.AuthorizationFilter@2fad50f2]
-2024-09-03 10:04:11 INFO  c.r.randy.RandyApplicationTests - Started RandyApplicationTests in 7.141 seconds (process running for 8.683)
+2024-09-05 09:11:34 INFO  c.r.randy.RandyApplicationTests - Starting RandyApplicationTests using Java 17.0.6 with PID 17368 (started by Randy Farhan in C:\Users\Randy Farhan\Documents\Development\BELAJAR\SpringResearch\springResearch\randy)
+2024-09-05 09:11:34 INFO  c.r.randy.RandyApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 219 ms. Found 3 JPA repository interfaces.
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.research.randy.repository.configMainRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.research.randy.repository.getConfigMainRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.research.randy.repository.LoggingDBRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-09-05 09:11:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-09-05 09:11:36 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-09-05 09:11:36 INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-09-05 09:11:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-05 09:11:37 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@44b9c7c4
+2024-09-05 09:11:37 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-05 09:11:37 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-05 09:11:37 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-09-05 09:11:37 INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2024-09-05 09:11:37 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-09-05 09:11:37 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-05 09:11:38 INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.OracleDialect, version: 21.0
+2024-09-05 09:11:38 INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2024-09-05 09:11:39 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-05 09:11:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-05 09:11:39 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-09-05 09:11:40 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-05 09:11:40 WARN  o.s.security.core.userdetails.User - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-09-05 09:11:41 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57082d16, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ae2227, org.springframework.security.web.context.SecurityContextHolderFilter@420dee82, org.springframework.security.web.header.HeaderWriterFilter@451f08ea, org.springframework.security.web.authentication.logout.LogoutFilter@2574123a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@75d454a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@81ac569, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b1aa390, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a1eb893, org.springframework.security.web.access.ExceptionTranslationFilter@627d29cc, org.springframework.security.web.access.intercept.AuthorizationFilter@834944]
+2024-09-05 09:11:41 INFO  c.r.randy.RandyApplicationTests - Started RandyApplicationTests in 8.466 seconds (process running for 10.412)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -108,8 +108,8 @@ public class transferIntraBankService {
             // System.out.println("transferIntraBank API Request: " + jsonBodyRequest);
 
             // Store the API external request
-            this.apiExternalRequest = jsonBodyRequest;
-
+           this.apiExternalRequest = jsonBodyRequest;
+            /*
             String coreBankURL = parameterService.getParameterValue("TWS_ENDPOINT_URL");
             String coreBankUsername = parameterService.getParameterValue("TWS_AUTH_USER");
             String coreBankPassword = parameterService.getParameterValue("TWS_AUTH_PASSWORD");
@@ -118,7 +118,9 @@ public class transferIntraBankService {
             System.out.println("uname: " + coreBankUsername);
             System.out.println("pwd: " + coreBankPassword);
 
-            // Decrypt password
+             */
+
+
             // Generate AES256 key
             // Data yang akan dienkripsi
             /*
@@ -126,11 +128,9 @@ public class transferIntraBankService {
             // Enkripsi data
             String encryptedData = aesEncryptionService.encrypt(originalData);
             System.out.println("Encrypted Data: " + encryptedData);
-
+             */
             String decryptedPassword = aesEncryptionService.decrypt(coreBankPasswordEncrypt);
-            System.out.println("Decrypted Data: " + decryptedPassword);
-            */
-
+            // System.out.println("Decrypted Data: " + decryptedPassword);
             // Prepare headers for Basic Auth ibarat mapping dokumen ke header di IS
             HttpHeaders headers = new HttpHeaders();
             String apiExternalUrl = coreBankURL;
@@ -140,12 +140,10 @@ public class transferIntraBankService {
             System.out.println("uname: " + coreBankUsername);
             System.out.println("pwd: " + coreBankPassword);
              */
-
             headers.add("Content-Type", "application/json");
 
             HttpEntity<String> requestEntity = new HttpEntity<>(jsonBodyRequest, headers);
             this.apiExternalURL = apiExternalUrl;
-
             // Send request to the external API and get the response
             ResponseEntity<String> responseEntity = restTemplate.exchange(
                     apiExternalUrl,

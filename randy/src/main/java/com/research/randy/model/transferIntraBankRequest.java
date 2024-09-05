@@ -5,7 +5,6 @@ public class transferIntraBankRequest {
     public Amount amount;
     private String beneficiaryAccountNo;
     private String sourceAccountNo;
-
     private String remark;
     private AdditionalInfo additionalInfo;  // Mengubah Map menjadi class AdditionalInfo
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://example.com/soap"
+           targetNamespace="http://example.com/soap"
+           elementFormDefault="qualified">
+
+    <xs:element name="TransferRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Define request elements here if needed -->
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="TransferResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Status">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="transactionId" type="xs:string"/>
+                            <xs:element name="messageId" type="xs:string"/>
+                            <xs:element name="successIndicator" type="xs:string"/>
+                            <xs:element name="application" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="FUNDSTRANSFERType">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="COCODE" type="xs:string"/>
+                            <xs:element name="MSGID" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

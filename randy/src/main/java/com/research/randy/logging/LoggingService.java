@@ -1,4 +1,7 @@
 package com.research.randy.logging;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.research.randy.logging.kafka.kafkaProducer;
 import com.research.randy.model.logging.LoggingModel;
 import com.research.randy.repository.LoggingDBRepository;
 import org.apache.logging.log4j.LogManager;
@@ -18,6 +21,11 @@ public class LoggingService {
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
     @Autowired
     private LoggingDBRepository researchLogRepository;
+    private kafkaProducer KafkaProducer; // Inject KafkaProducer
+    @Autowired
+    public LoggingService(kafkaProducer KafkaProducer) {
+        this.KafkaProducer = KafkaProducer;
+    }
     public void logTransaction(String serviceUrl,String reffNo, String partnerReferenceNo, String responseCode, String responseMessage,
                                String incomingRequestTime, String incomingRequest,String apiExternalURL, String apiExternalRequest,
                                String apiExternalResponse, String apiExternalHttpStatus, String incomingResponse,
@@ -47,15 +55,27 @@ public class LoggingService {
         researchLog.setIncomingResponse(incomingResponse);
         researchLog.setIncomingResponseTime(incomingResponseTime);
         researchLog.setLocalIp(localIP);
+        //log to db
         researchLogRepository.save(researchLog);
-    /*
-        loggerTransactional.info("in main class");
-        loggerTransactional.info("info logging is printed");
-        loggerTransactional.debug("logger debud is worked");
-        loggerTransactional.warn("logging warn is worked");
+
+        // Serialize LoggingModel to JSON (you can use ObjectMapper from Jackson for this)
+        String logAsJson = convertToJson(researchLog);
+        // Send log message to Kafka
+        //System.out.println("prno: " + partnerReferenceNo);
+        System.out.println("logasjson: " + logAsJson);
+        KafkaProducer.sendMessage(reffNo, logAsJson); // Produce the log to Kafka
+
     }
 
- */
+    // Method to convert LoggingModel to JSON (you can adjust as needed)
+    private String convertToJson(LoggingModel log) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            return objectMapper.writeValueAsString(log);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+            return "{convertToJson:serialization fails}"; // Return empty JSON if serialization fails
+        }
     }
 
     private String getLocalIpAddress() {
@@ -68,5 +88,15 @@ public class LoggingService {
     }
 
     // Menyimpan log ke database
+
+
+       /*
+        loggerTransactional.info("in main class");
+        loggerTransactional.info("info logging is printed");
+        loggerTransactional.debug("logger debud is worked");
+        loggerTransactional.warn("logging warn is worked");
+    }
+
+ */
 
 }
