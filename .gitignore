@@ -44,3 +44,4 @@ secrets.yml
 node_modules
 randy/.gradle
 randy/build
+randy/.env
